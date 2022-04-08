@@ -28,14 +28,15 @@ Again, there are two options. Note that the Node option is naturally faster.
 
 ### With Node
 
-Run the tests with `npm test`.
+- Run the tests with `npm test`.
+- Run the linter with `npx eslint . --ext .js,.jsx,.ts,.tsx`
 
 ### With Docker
 
-Run the command:
+Run the tests and linter with:
 
 ```bash
-docker-compose run --rm fastify sh -c "NODE_ENV=development npm install && npm test"
+docker-compose run --rm fastify sh -c "NODE_ENV=development npm install && npm test && npx eslint . --ext .js,.jsx,.ts,.tsx"
 ```
 
 ## Docs
