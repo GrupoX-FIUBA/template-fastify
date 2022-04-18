@@ -16,7 +16,7 @@ To run the application there are two options. In either case, you can stablish a
 ### With Node
 
 - Install the dependencies: `npm install`.
-- Run the app in port 8000 with `npx nodemon app.js` or with `PORT=xxxx npx nodemon app.js` to use a specific `xxxx` port.
+- Run the app in port 8000 with `npx nodemon server.js` or with `PORT=xxxx npx nodemon server.js` to use a specific `xxxx` port.
 
 ### With Docker
 
